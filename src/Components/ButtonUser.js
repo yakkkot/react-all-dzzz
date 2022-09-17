@@ -1,15 +1,14 @@
 import React, {useState} from 'react';
 
-const ButtonUser = ({person,showInf}) => {
 
-    // let [inf,setInf] = useState(false)
-    // const clickInf = ()=>{
-    //     console.log(person);
-    //     setInf(!inf)
-    // }
+const ButtonUser = ({person,showInf,sw}) => {
+
     return (
-        <button onClick={()=>showInf(person.id)}>
-        Click me
+        <button onClick={() => {
+            showInf(person.id);
+            sw(person.id);
+        }}>
+            Click me
         </button>
     );
 };
