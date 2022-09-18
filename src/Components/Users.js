@@ -40,7 +40,7 @@ const Users = () => {
             {loading ?
                 (<div className='App border-2 py-8 px-8'>
                     {
-                        users.map(user => <User person={user} key={user.id} sw={sw} showInf={showInf} />
+                        users.map(user => <User person={user} key={user.id} sw={sw} showInf={showInf}/>
                         )
                     }
                 </div>) :
