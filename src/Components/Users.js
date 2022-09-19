@@ -32,7 +32,7 @@ const Users = () => {
 
     return (
         <div>
-            {see && (<div className={`ml-6 mb-6 ${oneUser && `information_div`}`}>
+            {see && (<div className={`ml-6 mb-6 px-4 ${oneUser && `information_div`}`}>
                 {oneUser && <InformationUser user={oneUser}/>}
             </div>)
             }
