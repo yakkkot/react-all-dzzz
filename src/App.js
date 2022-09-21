@@ -1,10 +1,14 @@
 import './App.css';
-import {Cars} from './Components/index';
+
+import {Users} from "./Components/index";
+import {Comments} from "./Components/index";
 
 function App() {
   return (
     <div className="App">
-        <Cars/>
+        <Users/>
+        <hr className='my-6'/>
+        <Comments/>
     </div>
   );
 }

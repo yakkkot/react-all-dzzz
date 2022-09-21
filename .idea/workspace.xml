@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="019a29f8-2cde-4c09-b53a-14b2c87584f6" name="Changes" comment="dz_3_first_1commit">
-      <change afterPath="$PROJECT_DIR$/src/Validators/car.validator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Validators/index.js" afterDir="false" />
+    <list default="true" id="c46cda52-eb6a-49bc-9aca-3d3a205f1c7b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Comments/Comments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/User/User.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UserForm/UserForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Users/Users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Services/all.services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Validators/user.validator.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Car/Car.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Car/Car.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CarForm/CarForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CarForm/CarForm.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Cars/Cars.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Cars/Cars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/cars.services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/cars.services.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Car/Car.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Car/Car.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CarForm/CarForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Cars/Cars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Configs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Comment/Comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/cars.services.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/urls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/urls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validators/car.validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validators/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CommentForm/CommentForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +33,6 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -31,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dz_3_first" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +48,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2F2ua5z0WpaWqFA1sufjqrvRMAN" />
+  <component name="ProjectId" id="2F4hnRD1qlpmu8OvYv6VmS6Cgl1" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -47,39 +56,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="019a29f8-2cde-4c09-b53a-14b2c87584f6" name="Changes" comment="" />
-      <created>1663702561219</created>
+      <changelist id="c46cda52-eb6a-49bc-9aca-3d3a205f1c7b" name="Changes" comment="" />
+      <created>1663757429432</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663702561219</updated>
-      <workItem from="1663702562879" duration="3449000" />
-      <workItem from="1663745449714" duration="8389000" />
+      <updated>1663757429432</updated>
+      <workItem from="1663757431317" duration="6846000" />
     </task>
-    <task id="LOCAL-00001" summary="dz_3_first_1commit">
-      <created>1663705483477</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1663705483477</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,9 +93,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="dz_3_first_1commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="dz_3_first_1commit" />
   </component>
 </project>
