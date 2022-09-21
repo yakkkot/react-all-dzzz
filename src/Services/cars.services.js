@@ -4,9 +4,9 @@ import {urls} from "./urls";
 
 const carServices = {
     getAll: () => axiosServices.get(urls.car),
-    create: (car) => axiosServices.put(urls.car, car),
+    create: (car) => axiosServices.post(urls.car, car),
     getById: (id) => axiosServices.get(`${urls.car}/${id}`),
-    updateById: (id) => axiosServices.put(`${urls.car}/${id}`),
+    updateById: (id,car) => axiosServices.put(`${urls.car}/${id}`,car),
     deleteById: (id) => axiosServices.delete(`${urls.car}/${id}`),
 };
 
