@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+
 import {CarForm} from "../CarForm/CarForm";
 import {carServices} from "../../Services";
 import {Car} from "../Car/Car";
@@ -6,27 +7,20 @@ import {Car} from "../Car/Car";
 
 const Cars = () => {
 
-    const [cars,setCars] = useState([])
-    const [update,setUpdate] = useState(null)
+    const [cars, setCars] = useState([])
+    const [oneCar, setOneCar] = useState(null);
 
-    useEffect(()=> {
+    useEffect(() => {
         carServices.getAll().then(({data}) => setCars(data));
-    },[])
-
-
-    const infoAboutCars = async (obj)=>{
-        console.log(obj)
-        return obj
-    }
-
+    }, [cars])
 
     return (
-        <div>
-            <CarForm setCars={setCars} setUpdate={setUpdate} infoAboutCars={infoAboutCars}/>
-            <hr/>
+        <div className='mt-4'>
+            <CarForm setCars={setCars} oneCar={oneCar} setOneCar={setOneCar}/>
+            <hr className='my-4 mx-2 border-1 border-neutral-800'/>
             {
-                cars.map(car => <Car setCars={setCars} key={car.id} car={car} setUpdate={setUpdate}
-                                     infoAboutCars={infoAboutCars}/>)
+                cars.map(car => <Car setCars={setCars} key={car.id} car={car}
+                                     setOneCar={setOneCar}/>)
             }
         </div>
     );
