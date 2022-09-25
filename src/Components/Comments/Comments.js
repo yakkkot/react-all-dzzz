@@ -1,4 +1,5 @@
 import React from 'react';
+
 import {useEffect, useState} from "react";
 import {commentsServices} from "../../Services";
 import OneComment from "../OneComment/OneComment";
@@ -13,7 +14,7 @@ const Comments = () => {
     return (
         <div>
             <Outlet/>
-            <div>
+            <div className="py-3 px-3 mx-2">
                 {
                     comments.map(comment => <OneComment key={comment.id} comment={comment}/>)
                 }

@@ -6,6 +6,11 @@ const todosServices = {
     getAll: () => axiosServices.get(urls.todos)
 }
 
+const usersServices = {
+    getAll: () => axiosServices.get(urls.users),
+    getOne: (id) => axiosServices.get(`${urls.users}/${id}`)
+}
+
 const albumsServices = {
     getAll: () => axiosServices.get(urls.albums)
 }
@@ -18,4 +23,4 @@ const postsServices = {
     getOne: (id) => axiosServices.get(`${urls.posts}/${id}`)
 }
 
-export {todosServices,albumsServices,commentsServices,postsServices}
+export {todosServices,albumsServices,commentsServices,postsServices,usersServices}

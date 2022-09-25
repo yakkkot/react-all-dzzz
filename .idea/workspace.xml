@@ -4,24 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d54e809-a36d-441e-97b6-fb4a65ff3779" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/react-all-dzzz.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Albums/Albums.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/CommentDetails/CommentDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Comments/Comments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Main/Main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/OneComment/OneComment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Posts/Posts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Todos/Todos.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/axios.services.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/urls.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services/users.services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    <list default="true" id="6d54e809-a36d-441e-97b6-fb4a65ff3779" name="Changes" comment="first">
+      <change afterPath="$PROJECT_DIR$/src/Components/Albums/OneAlbum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Todos/OneTodo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Users/AllInfoV2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Users/AllUserInformation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Users/OneUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Users/Users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Albums/Albums.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Albums/Albums.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CommentDetails/CommentDetail.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Comments/Comments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Main/Main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/OneComment/OneComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/OneComment/OneComment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Posts/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Posts/Posts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todos/Todos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todos/Todos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/users.services.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/users.services.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,8 +84,18 @@
       <option name="presentableId" value="Default" />
       <updated>1664109563290</updated>
       <workItem from="1664109564934" duration="9719000" />
-      <workItem from="1664132014062" duration="327000" />
+      <workItem from="1664132014062" duration="556000" />
+      <workItem from="1664132618409" duration="24000" />
+      <workItem from="1664132691312" duration="2980000" />
     </task>
+    <task id="LOCAL-00001" summary="first">
+      <created>1664132606385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664132606385</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,5 +111,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
   </component>
 </project>

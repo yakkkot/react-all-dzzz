@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+
 import {postsServices} from "../../Services";
 import {useParams} from "react-router-dom";
 
@@ -13,8 +14,7 @@ const Posts = () => {
     return (
 
         <div>
-
-            <div>
+            <div className="border-2 border-green-400 py-2 px-2 my-4 mx-2">
                 {posts && JSON.stringify(posts)}
             </div>
         </div>
